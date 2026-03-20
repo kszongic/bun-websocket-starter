@@ -1,0 +1,14 @@
+{
+  "name": "bun-websocket-starter",
+  "version": "1.0.0",
+  "description": "Production-ready WebSocket server built with Bun — rooms, auth, presence, and a chat client",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "keywords": ["bun", "websocket", "chat", "realtime", "starter", "template"],
+  "author": "kszongic",
+  "license": "MIT"
+}
